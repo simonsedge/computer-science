@@ -17,10 +17,12 @@
 3. Transistors
    - like microscopic on-off switches for which each switch has a value called a bit
    - semiconductor devices used to amplify or switch electronic signals. the fundamental building blocks of modern electronic devices, including CPUs
+   - with info from a counting system, you can make logic gates like "and" "nand" "or" "nor" "buffer" "not" "xor" "xnor" that are electronic circuits that encapsulate logical statements
   
 4. Bit
    - smallest unit of information a computer can use
    - as info is typically complex, it comes in a pack of 8 combinational bits = byte = 2^8 combinations = 256 combinations
+   - so now we can store information by counting in a system called binary
   
 5. ASCII
    - ASCII is a character encoding standard that assigns a number to each character (letters, digits, punctuation) to represent text in computers
@@ -30,16 +32,16 @@
   
 7. Binary (0/1)
    - a system for counting like the base10 system when counting on my fingers
-   - so binary is just a base2 system where each possible bit value in a pack is multiplied by the correspondent bit placement value in the pack (01111011 = 0x128 + 1*64 + ... + 1x2 + 1x1)
+   - so binary is just a base2 system where each possible bit value in a pack is multiplied by the correspondent bit placement value in the pack (01111011 = 0x128 + 1*64 + ... + 1x2 + 1x1). or in other words every bit represents a power of 2 (2^0, 2^1, ...) in which a 1 includes a power and a 0 doesnt include the power
    - base-2 numeral system that uses only two digits, 0 and 1. it is the fundamental language of computers, with all data processed as combinations of binary digits (bits).
   
-8. Hexadecimal
-   - a system for counting like binary but more human appropriate since we're not digital calculators to read binary
+8. Hexadecimal (0x...)
+   - a system for counting like binary but more human readable since we're not digital calculators to read binary
    - so hexadecimal is a base16 system of 01234565789abcdef (10 numbers and 6 letters)
    - a base-16 numeral system using 16 symbols: 0-9 and A-F. It is often used in computing to represent binary data in a more compact and readable form.
   
 9. Nibble
-   - 4bit group
+   - a group of 4 binary bits that through hexadecimal can take any value from 0-15 with 0-9 + a-f (so basically corresponding to 1 singular dexadecimal)
    - A nibble is a group of four bits, or half of a byte (which is 8 bits). It can represent a single hexadecimal digit.
   
 10. Machine code
@@ -60,9 +62,10 @@
    - in order for the RAM + CPU brain to be used, needs to handle input and output. An input device can be the keyboard, the output device the monitor
    - Input/Output (I/O) refers to the communication between a computer system and the external world, including devices like keyboards, monitors, and printers.
 
-13. Kernels
-   - the reason why programmers dont have to worry about how all the CPU + RAM + I/O fit together. its like operating systems inside OSs (MacOs, windows, linux) that manage hardware resources via     device drivers
+13. Operating system kernel (like windows, linux, mac)
+   - the reason why programmers dont have to worry about how all the CPU + RAM + I/O fit together. OS's manage hardware resources via device drivers
    - the kernel is the core component of an operating system, managing system resources, and facilitating communication between hardware and software.
+   - sits between hardware and software
 
 14. Shell
    - if i wanted to start hacking on the operating system, the shell is the first entry point. it's a program that exposes the operating system (say kernel) to the end user. it takes a line of text as input and produces an output in the CLI
