@@ -1,8 +1,13 @@
-# "Computer Science For Dummies"
+# "Practical Computer Science For Dummies"
 
 2 goals with this repo:
 - connect a great majority of relevant computer science concepts
 - explain each concept in 2 different ways (analogy/simplistic + technical/definition)
+
+When do i know i understand enough of the practical side of CS?
+- i have enough comfort and familiarity in understanding documentation concepts
+- i am able to search and find answers quickly because my intuition on the nature of the problem is good enough and i know the terminology and concepts behind the problem even though i may not have the full implementation in my head
+- i have looked at code in a couple of languages (not frameworks) and roughly understand what it does
 
 ## how 99 concepts connect with each other
 
